@@ -6,7 +6,9 @@ This is a simple Ruby library / command-line tool that scans a Markdown document
 * Be self contained to the Markdown document.  I don't [pandoc's](http://johnmacfarlane.net/pandoc/) implementation for this reason.  It forces storing and keeping up-to-date a separate `.bib` references file.
 * Easily compile to something submittable for publication.
 
-This library takes the following Markdown syntax and transforms it:
+This library takes the following Markdown syntax and transforms it.
+
+## Example
 
 ### Before
 
@@ -26,11 +28,13 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor 
 
 ### After
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua [^1](http://dx.doi.org/10.1371/journal.ppat.1000918). Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [^2](http://dx.doi.org/10.1073/pnas.0812009106). Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [Bedford et al. 2012](http://dx.doi.org/10.1186/1741-7007-10-38).
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua [1](#references). Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [[2]](#references). Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [[3]](#references).
 
-1. Trevor Bedford, Sarah Cobey, Peter Beerli, Mercedes Pascual, 2010, 'Global Migration Dynamics Underlie Evolution and Persistence of Human Influenza A (H3N2)', <i>PLoS Pathogens</i>, vol. 6, no. 5, p. e1000918
-2. T. Bedford, D. L. Hartl, 2009, 'Optimization of gene expression by natural selection', <i>Proceedings of the National Academy of Sciences</i>, vol. 106, no. 4, pp. 1133-1138
-3. Trevor Bedford, Andrew Rambaut, Mercedes Pascual, 2012, 'Canalization of the evolutionary trajectory of the human influenza virus', <i>BMC Biology</i>, vol. 10, no. 1, p. 38
+#### References
+
+1. [Bedford T, Cobey S, Beerli P, Pascual M. 2010. Global migration dynamics underlie evolution and persistence of human influenza A (H3N2). PLoS Pathog 6: e1000918.](http://dx.doi.org/10.1371/journal.ppat.1000918)
+2. [Bedford T, Hartl DL. 2009. Optimization of gene expression by natural selection. Proc Natl Acad Sci USA 106: 1133-1138.](http://dx.doi.org/10.1073/pnas.0812009106)
+3. [Bedford T, Rambaut A, Pascual M. 2012. Canalization of the evolutionary trajectory of the human influenza virus. BMC Biol 10: 38.](http://dx.doi.org/10.1186/1741-7007-10-38)
 
 ## Options
 
