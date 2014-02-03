@@ -16,8 +16,6 @@ This library takes the following Markdown syntax and transforms it.
 
 *Inline-style links*
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua [Bedford et al. 2010](http://dx.doi.org/10.1371/journal.ppat.1000918). Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [Bedford and Hartl 2009](http://dx.doi.org/10.1073/pnas.0812009106). Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [Bedford et al. 2012](http://dx.doi.org/10.1186/1741-7007-10-38).
-
 ```md
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 aliqua [Bedford et al. 2010](http://dx.doi.org/10.1371/journal.ppat.1000918). Ut enim ad minim veniam, quis nostrud
@@ -31,22 +29,16 @@ officia deserunt mollit anim id est laborum [Bedford et al. 2012](http://dx.doi.
 
 *Reference-style links*
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua [Bedford et al. 2010]. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [Bedford and Hartl 2009]. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [Bedford et al. 2012].
-
-[Bedford et al. 2010]: http://dx.doi.org/10.1371/journal.ppat.1000918
-[Bedford and Hartl 2009]: http://dx.doi.org/10.1073/pnas.0812009106
-[Bedford et al. 2012]: http://dx.doi.org/10.1186/1741-7007-10-38
-
 ```md
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
 aliqua [Bedford et al. 2010]. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur
-[Bedford and Hartl 2009]. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim
-id est laborum [Bedford et al. 2012].
+commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla 
+pariatur [Bedford and Hartl 2009]. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt 
+mollit anim id est laborum [Bedford et al. 2012].
 
-[Bedford et al. 2010]: http://dx.doi.org/10.1371/journal.ppat.1000918
-[Bedford and Hartl 2009]: http://dx.doi.org/10.1073/pnas.0812009106
-[Bedford et al. 2012]: http://dx.doi.org/10.1186/1741-7007-10-38
+- [Bedford et al. 2010]: http://dx.doi.org/10.1371/journal.ppat.1000918
+- [Bedford and Hartl 2009]: http://dx.doi.org/10.1073/pnas.0812009106
+- [Bedford et al. 2012]: http://dx.doi.org/10.1186/1741-7007-10-38
 ```
 
 ### After
