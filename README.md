@@ -5,7 +5,7 @@
 This is a simple Ruby library / command-line tool that scans a Markdown document for DOI links and creates a references section using the [CrossRef](http://search.labs.crossref.org/) API.  Citations in Markdown should accomplish the following:
 
 * Make sense in the plain text context.  This means not uglifying the text and being useful.
-* Be self contained to the Markdown document.  I don't [pandoc's](http://johnmacfarlane.net/pandoc/) implementation for this reason.  It forces storing and keeping up-to-date a separate `.bib` references file.
+* Be self contained to the Markdown document.  I don't like [pandoc's](http://johnmacfarlane.net/pandoc/) implementation for this reason.  It forces storing and keeping up-to-date a separate `.bib` references file.
 * Easily compile to something submittable for publication.
 
 This library takes the following Markdown syntax and transforms it.
