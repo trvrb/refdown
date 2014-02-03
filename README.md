@@ -56,6 +56,24 @@ deserunt mollit anim id est laborum [[Bedford et al. 2012]].
 - [Bedford et al. 2012]: http://dx.doi.org/10.1186/1741-7007-10-38
 ```
 
+#### Short links
+
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua [[*]](http://dx.doi.org/10.1371/journal.ppat.1000918). Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur [[*]](http://dx.doi.org/10.1073/pnas.0812009106). 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+[[†]](http://dx.doi.org/10.1186/1741-7007-10-38).
+
+```md
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+aliqua [[*]](http://dx.doi.org/10.1371/journal.ppat.1000918). Ut enim ad minim veniam, quis nostrud
+exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
+voluptate velit esse cillum dolore eu fugiat nulla pariatur [[*]](http://dx.doi.org/10.1073/pnas.0812009106). 
+Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum 
+[[†]](http://dx.doi.org/10.1186/1741-7007-10-38).
+```
+
 ### After
 
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua [[1]](#References). Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur [[2]](#References). Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum [[3]](#References).
